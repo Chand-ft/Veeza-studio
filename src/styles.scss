@@ -1,0 +1,102 @@
+/*Importing default angular material css theme. */
+
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "nDefaults.scss";
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    font-family: 'Varela Round', sans-serif;
+}
+.body1text{
+    font-size: 65px;
+    font-weight: bolder;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0%;
+}
+.width600{
+    width: 600px;
+}
+.widthFull{
+    width: 100%;
+}
+.height100{
+    height: 100px;
+}
+.marginTop100{
+    margin-top: 100px;
+}
+.marginBottom50{
+    margin-bottom:50px ;
+    }
+.marginTop50{
+    margin-top: 50px;
+}
+.marginBottom100{
+    margin-bottom:100px ;
+    }
+.body1bgImage{
+    background-image: url("https://images.unsplash.com/photo-1588009754695-1f8f5b758ee5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGhheWV8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80");
+    height: 700px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.whiteBackground{
+    background-color: white;
+    color: black;
+}
+.blackBackground{
+    background-color: black;
+    color: white;
+}
+.searchBarIcon{
+    font-size: 15px;
+}
+.searchBarBody{
+        border-radius: 50px;
+    padding: 10px;
+}
+.searchBarText{
+    font-size: 13px;
+    font-weight: bold;
+}
+.navBarMarginTop{
+    margin-top: 30px;
+}
+.navBarButton{
+    background-color: #ce3454;
+    border-radius: 20px !important;
+}
+.greyBackground{
+    background-color: aliceblue;
+    height: 750px;
+}
+.smallGreyText{
+    color: grey;
+    font-size: 12px;
+}
+.bigBlackText{
+    // font-size: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.marginTop20{
+    margin-top: 20px;
+}
+.marginRight15{
+    margin-right:15px
+}
+.page3bgImage1{
+    background-image: url("https://image.made-in-china.com/202f0j00tGmUjBiJZgpe/Large-Aluminum-Planter-Home-Decor-Flower-Pot-Plant-Pot-Metal-Flower-Pots.jpg");
+}
+.page3bgImage2{
+    background-image: url("https://www.mydomaine.com/thmb/KkvZXGG9YtvKSS3uQToAu-wR_Fo=/500x350/filters:no_upscale():max_bytes(150000):strip_icc()/TiffanyLeighDesign_TorontoInteriorDesigner_SummerHouseKitchen4-8e96d33f49b94b9394dcbf0ee743bfa6.jpg");
+}
+.page3bgImage3{
+    background-image: url("https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2018_44/1381123/bedroom-today-main-181029-01.jpg");
+}
+.redIcon{
+    font-size: 70px;
+    color: #ce3454;
+}
