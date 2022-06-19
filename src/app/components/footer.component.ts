@@ -66,10 +66,36 @@ export class footerComponent {
 
   sd_PYbP7t8jfuhUX30P(bh) {
     try {
+      this.page.footerItems = undefined;
+      bh = this.sd_PkBZ0KRNVAAEECvF(bh);
       //appendnew_next_sd_PYbP7t8jfuhUX30P
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_PYbP7t8jfuhUX30P');
+    }
+  }
+
+  sd_PkBZ0KRNVAAEECvF(bh) {
+    try {
+      const page = this.page;
+      page.footerItems = {
+        heading: 'Ready to take action?',
+        paragraph: 'Get in touch',
+        icon: 'search',
+        logo: '/Web/images/white.jpg',
+        logoHeading: 'VEEZA',
+        list1: [
+          'Technology Park',
+          '8 - 14 Marie Curie Street',
+          '08042 Barcelona',
+        ],
+        list2: ['+27799575686', 'veeza@gmail.com'],
+        list3: ['About Us', 'Command Center', 'Documentation'],
+      };
+      //appendnew_next_sd_PkBZ0KRNVAAEECvF
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_PkBZ0KRNVAAEECvF');
     }
   }
 

@@ -66,10 +66,31 @@ export class page_4Component {
 
   sd_5R6GQyzR9gCDf5Nz(bh) {
     try {
+      this.page.page4Items = [];
+      bh = this.sd_q8DCZu2zSByXwV7b(bh);
       //appendnew_next_sd_5R6GQyzR9gCDf5Nz
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_5R6GQyzR9gCDf5Nz');
+    }
+  }
+
+  sd_q8DCZu2zSByXwV7b(bh) {
+    try {
+      const page = this.page;
+      page.page4Items = {
+        heading: 'Trusted by over 150+ organizations in more than 50 countries',
+        paragraph: 'sdfghjbknl',
+        icon: 'arrow-up',
+        logo: 'url',
+        list1: ['one', 'one', 'one'],
+        list2: ['one', 'one', 'one'],
+        footer: ['one', 'one', 'one'],
+      };
+      //appendnew_next_sd_q8DCZu2zSByXwV7b
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_q8DCZu2zSByXwV7b');
     }
   }
 

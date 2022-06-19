@@ -66,10 +66,31 @@ export class navBarComponent {
 
   sd_BLmXKWWyOIMaEM2y(bh) {
     try {
+      this.page.section1 = [];
+      bh = this.sd_2GBPycEb4eRXN2y1(bh);
       //appendnew_next_sd_BLmXKWWyOIMaEM2y
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_BLmXKWWyOIMaEM2y');
+    }
+  }
+
+  sd_2GBPycEb4eRXN2y1(bh) {
+    try {
+      const page = this.page;
+      page.section1 = {
+        logo: 'https://linkedinreplication.web.app/assets/Web/Images/post.jpg',
+        navItems: ['About', 'Services', 'Project', 'Contact'],
+        backgroundImage:
+          'https://linkedinreplication.web.app/assets/Web/Images/post.jpg',
+        heading: 'loremwehfuewuf',
+        content: 'hfhwhfkwe hfewfewkfk',
+        belowContent: 'ufehhwefk efiejwkf fjewijf',
+      };
+      //appendnew_next_sd_2GBPycEb4eRXN2y1
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_2GBPycEb4eRXN2y1');
     }
   }
 

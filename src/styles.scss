@@ -19,8 +19,8 @@ p, h1, h2, h3, h4, h5, h6 {
 .widthFull{
     width: 100%;
 }
-.height100{
-    height: 100px;
+.heightForPg3Images{
+    height: 200px;
 }
 .marginTop100{
     margin-top: 100px;
@@ -99,4 +99,18 @@ p, h1, h2, h3, h4, h5, h6 {
 .redIcon{
     font-size: 70px;
     color: #ce3454;
+}
+.pg3-OpacityText{
+    margin-right: 15px;
+    background-color: white;
+    margin-top: 15px;
+    width: 100px;
+    height: 40px;
+    color: black;
+    text-align: center;
+}
+.pg3-whiteBoxText{
+    background-color: white;
+    margin-top: 65px;
+    width: 300px;
 }

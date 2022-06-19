@@ -66,10 +66,26 @@ export class bottomBodyComponent {
 
   sd_rO24Hz79FuBjkh5U(bh) {
     try {
+      this.page.bottomBody = [];
+      bh = this.sd_uD79ua70TYM5v5ex(bh);
       //appendnew_next_sd_rO24Hz79FuBjkh5U
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_rO24Hz79FuBjkh5U');
+    }
+  }
+
+  sd_uD79ua70TYM5v5ex(bh) {
+    try {
+      const page = this.page;
+      page.bottomBody = {
+        belowContent:
+          'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero mollitia quae quia at totam unde dolorem quibusdam cupiditate eligendi asperiores! Ipsum ut nulla ipsa reprehenderit quae. Animi consequatur fugit officiis.',
+      };
+      //appendnew_next_sd_uD79ua70TYM5v5ex
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_uD79ua70TYM5v5ex');
     }
   }
 

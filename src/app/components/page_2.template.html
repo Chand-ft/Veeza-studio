@@ -4,61 +4,29 @@
       <div fxLayout="row wrap" class="marginBottom50" fxLayoutAlign="start stretch" [fxShow]="true">
         <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
           <div class="bigBlackText">
-            <p>Lorem ipsum dolor sit.</p>
+            <p>{{page.page2Items.heading}}</p>
           </div>
         </div>
         <div fxLayout="column wrap" fxFlex="50" fxLayoutAlign="start stretch" [fxShow]="true">
           <div class="smallGreyText">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus animi earum qui repudiandae, cupiditate ratione reprehenderit sit similique officia ea nam ut velit delectus consequatur.</p>
+
+            <p>{{page.page2Items.paragraph1}}</p>
           </div>
         </div>
       </div>
       <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
         <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true">
-          <div fxLayout="column wrap" fxFlex="80" fxLayoutAlign="start stretch" [fxShow]="true">
-            <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-              <div fxLayout="column wrap" class="marginRight15" fxFlex="22%" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/black-house.jpeg" width="100%">
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+            <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true">
+              <div fxLayout="column wrap" fxFlex="24%" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let item of page.page2Items.housesImages"><img imgSrc="{{item.image}}" width="100%">
                 <div class="marginTop20">
-                  <p style="font-size: 25px;font-weight: bold;">Modern Penthouse</p>
+                  <p style="font-size: 25px;font-weight: bold;">{{item.title}}</p>
                 </div>
                 <div class="marginTop20 smallGreyText">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ut.</p>
+                  <p>{{item.paragraph}}</p>
                 </div>
                 <div class="marginTop20 smallGreyText">
-                  <p>Lorem ipsum dolor sit</p>
-                </div>
-              </div>
-              <div fxLayout="column wrap" class="marginRight15" fxFlex="22%" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/black-house.jpeg" width="100%">
-                <div class="marginTop20">
-                  <p style="font-size: 25px;font-weight: bold;">Modern Penthouse</p>
-                </div>
-                <div class="marginTop20 smallGreyText">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ut.</p>
-                </div>
-                <div class="marginTop20 smallGreyText">
-                  <p>Lorem ipsum dolor sit</p>
-                </div>
-              </div>
-              <div fxLayout="column wrap" class="marginRight15" fxFlex="22%" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/black-house.jpeg" width="100%">
-                <div class="marginTop20">
-                  <p style="font-size: 25px;font-weight: bold;">Modern Penthouse</p>
-                </div>
-                <div class="marginTop20 smallGreyText">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ut.</p>
-                </div>
-                <div class="marginTop20 smallGreyText">
-                  <p>Lorem ipsum dolor sit</p>
-                </div>
-              </div>
-              <div fxLayout="column wrap" class="marginRight15" fxFlex="22%" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/black-house.jpeg" width="100%">
-                <div class="marginTop20">
-                  <p style="font-size: 25px;font-weight: bold;">Modern Penthouse</p>
-                </div>
-                <div class="marginTop20 smallGreyText">
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ut.</p>
-                </div>
-                <div class="marginTop20 smallGreyText">
-                  <p>Lorem ipsum dolor sit</p>
+                  <p>{{item.date}}</p>
                 </div>
               </div>
             </div>

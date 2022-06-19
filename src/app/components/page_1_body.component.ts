@@ -66,10 +66,27 @@ export class page_1_bodyComponent {
 
   sd_JqfuZ762on36v6me(bh) {
     try {
+      this.page.page1Body = [];
+      bh = this.sd_3aqc0hINW1vEFA8G(bh);
       //appendnew_next_sd_JqfuZ762on36v6me
       return bh;
     } catch (e) {
       return this.errorHandler(bh, e, 'sd_JqfuZ762on36v6me');
+    }
+  }
+
+  sd_3aqc0hINW1vEFA8G(bh) {
+    try {
+      const page = this.page;
+      page.page1Body = {
+        heading: 'The smartest way to buy a home',
+        content:
+          "Let's find your dream home with Veeza. Partner with a local real estate agent to fund the home or apartment that's right for you",
+      };
+      //appendnew_next_sd_3aqc0hINW1vEFA8G
+      return bh;
+    } catch (e) {
+      return this.errorHandler(bh, e, 'sd_3aqc0hINW1vEFA8G');
     }
   }
 

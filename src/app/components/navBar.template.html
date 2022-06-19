@@ -3,7 +3,7 @@
     <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true">
       <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
         <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-          <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Icons/favicon.ico"></div>
+          <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><img imgSrc="/Web/Icons/favicon.ico" width="64px"></div>
           <div>
             Veeza</div>
         </div>
@@ -12,21 +12,10 @@
         <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true">
           <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="start stretch" [fxShow]="true">
             <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true">
-              <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
+              <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let item of page.section1.navItems">
                 <p>
-                  About</p>
-              </div>
-              <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-                <p>
-                  Services</p>
-              </div>
-              <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-                <p>
-                  Project</p>
-              </div>
-              <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-                <p>
-                  Contact</p>
+                  {{item}}
+                </p>
               </div>
             </div>
           </div>
