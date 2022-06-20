@@ -9,7 +9,7 @@
         </div>
       </div>
       <div fxLayout="column wrap" fxFlex="65" fxLayoutAlign="start stretch" [fxShow]="true">
-        <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true">
+        <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true" fxHide.xs="true">
           <div fxLayout="column wrap" fxFlex="45" fxLayoutAlign="start stretch" [fxShow]="true">
             <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true">
               <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let item of page.section1.navItems">
@@ -20,6 +20,9 @@
             </div>
           </div>
           <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true"><button mat-button class="navBarButton">Get Started</button></div>
+        </div>
+        <div fxLayout="row wrap" fxLayoutAlign="end stretch" [fxShow]="false" fxShow.xs="true">
+          <mat-icon class="phoneMenuIcon">menu</mat-icon>
         </div>
       </div>
     </div>

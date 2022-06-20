@@ -70,7 +70,8 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 .greyBackground{
     background-color: aliceblue;
-    height: 750px;
+       height: auto;
+
 }
 .smallGreyText{
     color: grey;
@@ -113,4 +114,17 @@ p, h1, h2, h3, h4, h5, h6 {
     background-color: white;
     margin-top: 65px;
     width: 300px;
+}
+
+.longImageHeight{
+    height: 378px;
+}
+.phoneMenuIcon{
+    font-size: 50px;
+    margin-right: 20px;
+}
+.scroll{
+    overflow-y: hidden;
+    overflow-x: scroll;
+    width:100%;
 }

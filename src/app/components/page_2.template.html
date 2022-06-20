@@ -17,8 +17,8 @@
       <div fxLayout="row wrap" fxLayoutAlign="start stretch" [fxShow]="true">
         <div fxLayout="column wrap" fxFlex="100" fxLayoutAlign="start stretch" [fxShow]="true">
           <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true">
-            <div fxLayout="row wrap" fxLayoutAlign="space-between stretch" [fxShow]="true">
-              <div fxLayout="column wrap" fxFlex="24%" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let item of page.page2Items.housesImages"><img imgSrc="{{item.image}}" width="100%">
+            <div fxLayout="row " style="width:490px" class="scroll" fxLayoutAlign="space-between stretch" [fxShow]="true">
+              <div fxLayout="column " fxFlex="245px" fxLayoutAlign="start stretch" [fxShow]="true" *ngFor="let item of page.page2Items.housesImages"><img imgSrc="{{item.image}}" class="longImageHeight" width="100%">
                 <div class="marginTop20">
                   <p style="font-size: 25px;font-weight: bold;">{{item.title}}</p>
                 </div>
